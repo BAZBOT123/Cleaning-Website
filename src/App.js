@@ -1,6 +1,5 @@
 import './App.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {  faVacuum } from '@fortawesome/free-brands-svg-icons';
+
 
 function App() {
   return (
@@ -8,7 +7,7 @@ function App() {
 
       <nav className="navbar">
       <div className="Logo">
-      <FontAwesomeIcon icon={faVacuum} />
+      <h1>Logo</h1>
         </div>
         <div className="Home-page">
           <h1>Home</h1>
@@ -40,3 +39,4 @@ function App() {
 }
 
 export default App;
+
