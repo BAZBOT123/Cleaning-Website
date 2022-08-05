@@ -1,42 +1,36 @@
 import './App.css';
+import { Routes, Route } from "react-router-dom"
+import { useEffect, useState } from 'react';
+import Home from './components/Home'
+import Reviews from './components/Reviews'
 
 
-function App() {
+export default function App() {
+  const [cleaners, setCleaners] = useState(null)
+
+  useEffect(() => {
+    fetch('http://localhost:3000/' + cleaners)
+      .then(res => res.json())
+      .then(res => {
+       console.log(res)
+
+      })
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
+
   return (
-    <div className="App">
-
-      <nav className="navbar">
-      <div className="Logo">
-      <h1>Logo</h1>
-        </div>
-        <div className="Home-page">
-          <h1>Home</h1>
-        </div>
-        <div className="Reviews-page">
-          <h1>Customer Reviews</h1>
-        </div>
-        <div className="Services-page">
-          <h1>Services</h1>
-        </div>
-        <div className="About-us-page">
-          <h1>About Us</h1>
-        </div>
-        <div className="Contact-us-page">
-          <h1>Contact Us</h1>
-        </div>
-      </nav>
-
-      <main className="App-header">
-        <h1>Hello World!</h1>
+    <div className='main-page'>
+      <main>
+        <Routes>
+          <Route path='/' element={< Home />} />
+          <Route path='/reviews' element={< Reviews cleaners={cleaners} setCleaners={setCleaners} />} />
+        </Routes>
       </main>
-
-
-      <footer className="App-footer">
-        <h1>Contact number: 999</h1>
-      </footer>
     </div>
+
   );
 }
 
-export default App;
+
 
