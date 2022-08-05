@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 
 
-export default function Reviews() {
+export default function About() {
   return (
     <div className="App">
 
@@ -30,9 +30,8 @@ export default function Reviews() {
       </nav>
 
       <main className="App-header">
-        <h1>Hello Hellow!</h1>
+        <h1>Hiiii Hiiii!</h1>
       </main>
-
 
       <footer className="App-footer">
         <h1>Contact number: 999</h1>

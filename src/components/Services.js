@@ -3,17 +3,16 @@ import { Link } from "react-router-dom"
 
 
 
-export default function Reviews() {
+export default function Services() {
   return (
     <div className="App">
 
       <nav className="navbar">
       <div className="Logo">
       <h1>Logo</h1>
-      </div>
+        </div>
         <div className="Home-page">
         <h1 className='home-font'><Link to='/'>Home</Link></h1>
-       
         </div>
         <div className="Reviews-page">
         <h1 className='reviews-font'><Link to='/reviews'>Reviews</Link></h1>
@@ -30,9 +29,8 @@ export default function Reviews() {
       </nav>
 
       <main className="App-header">
-        <h1>Hello Hellow!</h1>
+        <h1>Hello Hiiii!</h1>
       </main>
-
 
       <footer className="App-footer">
         <h1>Contact number: 999</h1>
