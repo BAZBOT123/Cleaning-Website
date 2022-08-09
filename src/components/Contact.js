@@ -1,4 +1,4 @@
-import '../App.css';
+import './Contact.css';
 import { Link } from "react-router-dom"
 
 
@@ -29,13 +29,19 @@ export default function Contact() {
         </div>
       </nav>
 
-      <main className="App-header">
-        <h1>Hello Contacts!</h1>
+      <main className="Contacts-main">
+        <div className="contact-left-contents">Hello Contacts!</div>
+        <div className="contact-right-contents">
+            <h3>Contact details:</h3>
+            <p>Tel: +44 7964 199 000</p>
+            <p>Email: lilys-cleaners@gmail.com</p>
+            <p>Location: We are London based</p>
+        </div>
       </main>
 
 
       <footer className="App-footer">
-        <h1>Contact number: 999</h1>
+      <h1>We make homes clean, safe, healthy.</h1>
       </footer>
     </div>
   );

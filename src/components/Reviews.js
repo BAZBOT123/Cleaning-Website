@@ -35,7 +35,7 @@ export default function Reviews() {
 
 
       <footer className="App-footer">
-        <h1>Contact number: 999</h1>
+        <h1>We make homes clean, safe, healthy.</h1>
       </footer>
     </div>
   );
