@@ -35,6 +35,7 @@ export default function Services() {
 
             <footer className="App-footer">
             <h1>We make homes clean, safe, healthy.</h1>
+            <h1>Follow us:</h1>
             </footer>
         </div>
     );

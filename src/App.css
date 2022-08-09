@@ -29,10 +29,6 @@ body {
   flex-direction: row;
 }
 
-.Logo {
-  color: greenyellow;
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 84%;
@@ -51,16 +47,14 @@ body {
   justify-content: space-evenly;
   align-items: center;
   flex-direction: row;
+  font-size: 1em;
 }
 
-.opening-times{
-  display: flex;
-  text-align: center;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column;
-
+.App-footer h1 {
+  font-size: 1.8em;
 }
+
+
 
 /* .App-link {
   color: #61dafb;
