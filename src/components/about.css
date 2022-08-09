@@ -26,15 +26,3 @@
   text-decoration: none;
 }
 
-.follow-us{
-  display: flex;
-  text-align: center;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: row;
-  width: 8em;
-}
-
-svg {
-  height: 1.8em;
-}

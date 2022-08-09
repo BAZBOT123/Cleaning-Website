@@ -2,9 +2,30 @@ import './Contact.css';
 import { Link } from "react-router-dom"
 import { ReactComponent as InstgramSvg } from '../assets/instagram-brands.svg';
 
-
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
+
+    const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_bbagh2c', 'template_7axl7ze', form.current, '4xogIVTSnDeEZmRRM')
+      .then((result) => {
+          console.log(result.text);
+          alert('Message sent!')
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
+
+
+
+
+
     return (
         <div className="App">
 
@@ -31,7 +52,21 @@ export default function Contact() {
             </nav>
 
             <main className="Contacts-main">
-                <div className="contact-left-contents">Hello Contacts!</div>
+                <div className="contact-left-contents">
+
+                <form ref={form} onSubmit={sendEmail}>
+      <label>Name</label>
+      <input type="text" name="user_name" />
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <label>Message</label>
+      <textarea name="message" />
+      <input type="submit" value="Send" />
+    </form>
+
+                </div>
+
+
                 <div className="contact-right-contents">
                     <h3>Contact details:</h3>
                     <p>Tel: +44 7964 199 000</p>

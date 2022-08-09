@@ -1,7 +1,8 @@
 import '../App.css';
 import './about.css';
 import { Link } from "react-router-dom"
-import { ReactComponent as InstgramSvg } from '../assets/instagram-brands.svg';
+import { ReactComponent as InstgramSvg }  from '../assets/instagram-brands.svg'; 
+
 
 
 

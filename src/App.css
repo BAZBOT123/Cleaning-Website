@@ -27,6 +27,12 @@ body {
   justify-content: space-evenly;
   align-items: center;
   flex-direction: row;
+  background-color: #556380;
+  color: black;
+}
+
+.navbar a {
+  text-decoration: none;
 }
 
 .App-header {
@@ -48,10 +54,12 @@ body {
   align-items: center;
   flex-direction: row;
   font-size: 1em;
+  background-color: #556380;
 }
 
 .App-footer h1 {
   font-size: 1.8em;
+  color: black;
 }
 
 
