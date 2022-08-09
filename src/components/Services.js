@@ -1,6 +1,7 @@
 import '../App.css';
 import './Services.css';
 import { Link } from "react-router-dom"
+import { ReactComponent as InstgramSvg } from '../assets/instagram-brands.svg';
 
 
 
@@ -35,7 +36,7 @@ export default function Services() {
 
             <footer className="App-footer">
             <h1>We make homes clean, safe, healthy.</h1>
-            <h1>Follow us:</h1>
+            <h1 className='follow-us'>Follow us:  <a href="https://www.google.com/"><InstgramSvg /></a></h1>
             </footer>
         </div>
     );
