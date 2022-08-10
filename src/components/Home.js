@@ -33,8 +33,8 @@ export default function Home() {
 
       <main className="App-header">
       <div>
-      <Link to='https://react.semantic-ui.com/'>
-      <button type="button" className="btn btn-info">Button</button>
+      <Link to='/about'>
+      <button type="button" className="btn btn-info">Enter</button>
       </Link>
       </div>
       </main>

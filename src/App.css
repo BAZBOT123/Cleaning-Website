@@ -44,7 +44,7 @@ body {
   padding: 0 0.5em 0 0.5em;
   border-radius: 2em;
   box-shadow: inset 2px 0px 20px 10px #51607f;
-    transition: .8s;
+  transition: 0.8s;
 }
 
 .App-header {
@@ -90,9 +90,8 @@ svg {
 }
 
 .follow-us:hover a {
-  fill:  #9a8761;
-  transition: .8s;
-
+  fill: #9a8761;
+  transition: 0.8s;
 }
 
 /* .App-link {
