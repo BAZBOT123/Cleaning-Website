@@ -89,6 +89,12 @@ svg {
   height: 1.8em;
 }
 
+.follow-us:hover a {
+  fill:  #9a8761;
+  transition: .8s;
+
+}
+
 /* .App-link {
   color: #61dafb;
 }

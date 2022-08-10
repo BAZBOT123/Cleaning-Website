@@ -1,6 +1,7 @@
 import '../App.css';
 import { Link } from "react-router-dom"
 import { ReactComponent as InstgramSvg } from '../assets/instagram-brands.svg';
+import React, { Component } from 'react';
 
 
 
@@ -31,7 +32,11 @@ export default function Home() {
       </nav>
 
       <main className="App-header">
-        <h1>Hello yoo!</h1>
+      <div>
+      <Link to='https://react.semantic-ui.com/'>
+      <button type="button" className="btn btn-info">Button</button>
+      </Link>
+      </div>
       </main>
 
 
