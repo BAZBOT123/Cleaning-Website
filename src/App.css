@@ -32,7 +32,19 @@ body {
 
 .navbar a {
   text-decoration: none;
-  color: black;
+  color: rgb(31, 31, 31);
+  font-size: 1.7rem;
+}
+
+.Home-page:hover a,
+.Reviews-page:hover a,
+.Services-page:hover a,
+.About-page:hover a,
+.Contact-page:hover a {
+  padding: 0 0.5em 0 0.5em;
+  border-radius: 2em;
+  box-shadow: inset 2px 0px 20px 10px #51607f;
+    transition: .8s;
 }
 
 .App-header {
@@ -44,6 +56,8 @@ body {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  border-top: 0.15em solid #806f49;
+  border-bottom: 0.15em solid #806f49;
 }
 
 .App-footer {
@@ -62,8 +76,7 @@ body {
   color: black;
 }
 
-
-.follow-us{
+.follow-us {
   display: flex;
   text-align: center;
   justify-content: space-evenly;
@@ -75,7 +88,6 @@ body {
 svg {
   height: 1.8em;
 }
-
 
 /* .App-link {
   color: #61dafb;

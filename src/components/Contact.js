@@ -9,17 +9,17 @@ export default function Contact() {
 
     const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+    const sendEmail = (e) => {
+        e.preventDefault();
 
-    emailjs.sendForm('service_bbagh2c', 'template_7axl7ze', form.current, '4xogIVTSnDeEZmRRM')
-      .then((result) => {
-          console.log(result.text);
-          alert('Message sent!')
-      }, (error) => {
-          console.log(error.text);
-      });
-  };
+        emailjs.sendForm('service_bbagh2c', 'template_7axl7ze', form.current, '4xogIVTSnDeEZmRRM')
+            .then((result) => {
+                console.log(result.text);
+                alert('Message sent!')
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
 
 
 
@@ -50,30 +50,34 @@ export default function Contact() {
                     <h1 className='contact-font'><Link to='/contact'>Contact</Link></h1>
                 </div>
             </nav>
+            <main className="App-header">
 
-            <main className="Contacts-main">
-                <div className="contact-left-contents">
+                <h2 className="contacts-subheader">Send us a cleaning request.</h2>
+                <p className="contacts-paragraph">If you require additional information please contact us and our staff of qualified professionals will be happy to assist you. If using the form to reach us, please expect a response within 24 hours. Thank you.</p>
+                <div className="Contacts-main">
+                    <div className="contact-left-contents">
 
-                <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form>
+                        <form ref={form} onSubmit={sendEmail}>
+                            <label>Name:</label>
+                            <input type="text" name="user_name" />
+                            <label>Email:</label>
+                            <input type="email" name="user_email" />
+                            <label>Message:</label>
+                            <textarea name="message" />
+                            <input className="submit-button" type="submit" value="Send" />
+                        </form>
 
+                    </div>
+
+
+                    <div className="contact-right-contents">
+                        <h3>Contact details:</h3>
+                        <p>Tel: +44 7964 199 000</p>
+                        <p>Email: LilysCleanersUK@gmail.com</p>
+                        <p>Location: We are London based</p>
+                    </div>
                 </div>
-
-
-                <div className="contact-right-contents">
-                    <h3>Contact details:</h3>
-                    <p>Tel: +44 7964 199 000</p>
-                    <p>Email: LilysCleanersUK@gmail.com</p>
-                    <p>Location: We are London based</p>
-                </div>
-            </main>
+            </ main>
 
 
             <footer className="App-footer">
