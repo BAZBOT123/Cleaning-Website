@@ -10,16 +10,17 @@ import Contact from './components/Contact'
 
 export default function App() {
   const [cleaners, setCleaners] = useState(null)
+  const url = 'http://localhost:3000/'
 
   useEffect(() => {
-    fetch('http://localhost:3000/' + cleaners)
+    fetch(url + cleaners)
       .then(res => res.json())
       .then(res => {
        console.log(res)
 
       })
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
+  }, [url])
 
 
   return (

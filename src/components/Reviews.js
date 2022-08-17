@@ -7,7 +7,7 @@ import { ReactComponent as InstgramSvg } from '../assets/instagram-brands.svg';
 export default function Reviews() {
     return (
         <div className="App">
-
+            
             <nav className="navbar">
                 <div className="Logo">
                     <h1>Logo</h1>

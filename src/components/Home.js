@@ -2,6 +2,25 @@ import '../App.css';
 import { Link } from "react-router-dom"
 import { ReactComponent as InstgramSvg } from '../assets/instagram-brands.svg';
 import React, { Component } from 'react';
+import { Slide } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css'
+
+
+const slideImages = [
+  {
+    url: 'images/slide_2.jpg',
+    caption: 'Slide 1'
+  },
+  {
+    url: 'images/slide_3.jpg',
+    caption: 'Slide 2'
+  },
+  {
+    url: 'images/slide_4.jpg',
+    caption: 'Slide 3'
+  },
+];
+
 
 
 
@@ -32,11 +51,31 @@ export default function Home() {
       </nav>
 
       <main className="App-header">
+
+      <div className="slide-container">
+        <Slide>
+         {slideImages.map((slideImage, index)=> (
+            <div className="each-slide" key={index}>
+              <div style={{'backgroundImage': `url(${slideImage.url})`}}>
+                <span>{slideImage.caption}</span>
+              </div>
+            </div>
+          ))} 
+        </Slide>
+      </div>
       <div>
       <Link to='/about'>
       <button type="button" className="btn btn-info">Enter</button>
       </Link>
       </div>
+
+      <div>
+
+      <p>pppp</p>
+      </div>
+
+
+
       </main>
 
 

@@ -31,12 +31,27 @@ export default function Services() {
             </nav>
 
             <main className="App-header">
-                <h1>Hello Hiiii!</h1>
+                <h1>Our Services</h1>
+                <p>We understand that house cleaning is a very personal thing.
+                    That is why our team will do their best not to disappoint you,
+                    handling everything according to your specifications and requests.
+                    So many people so many tastes, this is why we customize our services to you and to your budget.
+                    Our company provides you with free in-house consultations.
+                    We offer: First time cleaning & Regularly scheduled  services.
+                </p>
+                <div>
+    <h2>Three Column Grid</h2>
+    <div class="container three-column-grid">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+  </div>
             </main>
 
             <footer className="App-footer">
-            <h1>We make homes clean, safe, healthy.</h1>
-            <h1 className='follow-us'>Follow us:  <a href="https://www.google.com/"><InstgramSvg /></a></h1>
+                <h1>We make homes clean, safe, healthy.</h1>
+                <h1 className='follow-us'>Follow us:  <a href="https://www.google.com/"><InstgramSvg /></a></h1>
             </footer>
         </div>
     );
