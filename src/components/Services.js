@@ -14,7 +14,7 @@ export default function Services() {
                     <h1>Logo</h1>
                 </div>
                 <div className="Home-page">
-                    <h1 className='home-font'><Link to='/'>Home</Link></h1>
+                    <h1 className='home-font'><Link to='/home'>Home</Link></h1>
                 </div>
                 <div className="Reviews-page">
                     <h1 className='reviews-font'><Link to='/reviews'>Reviews</Link></h1>
@@ -36,12 +36,16 @@ export default function Services() {
                     That is why our team will do their best not to disappoint you,
                     handling everything according to your specifications and requests.
                     So many people so many tastes, this is why we customize our services to you and to your budget.
-                    Our company provides you with free in-house consultations.
-                    We offer: First time cleaning & Regularly scheduled  services.
+                    
                 </p>
                 <div>
-    <h2>Three Column Grid</h2>
+    <h2>Commercial cleaning</h2>
     <div class="container three-column-grid">
+      <div class="box"></div>
+      <div class="box">Lily's Cleaners makes it easier than ever to maintain a clean, organized, and productive office space.</div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
       <div class="box"></div>
       <div class="box"></div>
       <div class="box"></div>

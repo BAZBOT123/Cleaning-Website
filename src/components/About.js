@@ -15,7 +15,7 @@ export default function About() {
           <h1>Logo</h1>
         </div>
         <div className="Home-page">
-          <h1 className='home-font'><Link to='/'>Home</Link></h1>
+          <h1 className='home-font'><Link to='/home'>Home</Link></h1>
 
         </div>
         <div className="Reviews-page">
@@ -39,7 +39,7 @@ export default function About() {
 
         <br />
 
-        <h1>The Lily's Cleaners story</h1>
+        <h1>Lily's Cleaners story</h1>
         <p>Our story began in 2004 in <a href="https://en.wikipedia.org/wiki/Newcastle_upon_Tyne"
         >Newcastle Upon Tyne</a>, where we looked around and realised that there wasn't much domestic cleaning services around various areas being advertised, so this is where Lily's Cleaners stepped in.
           Through the years, we have relocated into London where we offer services to high valued clientele that we have gained great ongoing relations with.

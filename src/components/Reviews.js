@@ -13,7 +13,7 @@ export default function Reviews() {
                     <h1>Logo</h1>
                 </div>
                 <div className="Home-page">
-                    <h1 className='home-font'><Link to='/'>Home</Link></h1>
+                    <h1 className='home-font'><Link to='/home'>Home</Link></h1>
 
                 </div>
                 <div className="Reviews-page">

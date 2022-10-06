@@ -1,14 +1,14 @@
-import '../App.css';
+import './home.css';
 import { Link } from "react-router-dom"
 import { ReactComponent as InstgramSvg } from '../assets/instagram-brands.svg';
-import React, { Component } from 'react';
+// eslint-disable-next-line no-unused-vars
 import { Slide } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css'
+import 'react-slideshow-image/dist/styles.css';
 
 
 const slideImages = [
   {
-    url: 'images/slide_2.jpg',
+    url: 'https://media.istockphoto.com/photos/professional-housecleaner-at-work-picture-id1369817796?k=20&m=1369817796&s=612x612&w=0&h=iW4quYu-2ie8zdUGlSXPf24O4-5pNVypttCPuBKmOtQ=',
     caption: 'Slide 1'
   },
   {
@@ -22,8 +22,6 @@ const slideImages = [
 ];
 
 
-
-
 export default function Home() {
   return (
     <div className="App">
@@ -33,7 +31,7 @@ export default function Home() {
           <h1>Logo</h1>
         </div>
         <div className="Home-page">
-          <h1 className='home-font'><Link to='/'>Home</Link></h1>
+          <h1 className='home-font'><Link to='/home'>Home</Link></h1>
 
         </div>
         <div className="Reviews-page">
@@ -63,11 +61,7 @@ export default function Home() {
           ))} 
         </Slide>
       </div>
-      <div>
-      <Link to='/about'>
-      <button type="button" className="btn btn-info">Enter</button>
-      </Link>
-      </div>
+      
 
       <div>
 

@@ -6,6 +6,7 @@ import Reviews from './components/Reviews'
 import Services from './components/Services'
 import About from './components/About'
 import Contact from './components/Contact'
+import Intro from './components/Intro'
 
 
 export default function App() {
@@ -27,7 +28,8 @@ export default function App() {
     <div className='main-page'>
       <main>
         <Routes>
-          <Route path='/' element={< Home />} />
+          <Route path='/' element={< Intro />} />
+          <Route path='/home' element={< Home />} />
           <Route path='/reviews' element={< Reviews cleaners={cleaners} setCleaners={setCleaners} />} />
          <Route path='/services' element={< Services cleaners={cleaners} setCleaners={setCleaners} />} />
          <Route path='/about' element={< About cleaners={cleaners} setCleaners={setCleaners} />} />

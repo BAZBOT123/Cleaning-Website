@@ -1,7 +1,7 @@
 .three-column-grid {
     display: grid;
     gap: 5px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     border: 1px solid green;
 
   }
@@ -15,6 +15,6 @@
   }
 
   .container {
-    padding: 8px;
-    border: 2px dotted lightblue;
+    padding: .1em;
+    border: .1em dotted lightblue;
   }
