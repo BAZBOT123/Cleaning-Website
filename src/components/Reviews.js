@@ -2,7 +2,7 @@ import '../components/reviews.css';
 import { Link } from "react-router-dom"
 import { ReactComponent as InstgramSvg } from '../assets/instagram-brands.svg';
 import { useState } from 'react';
-import { AiFillStar, AiOutlineStar } from "react-icons/ai";
+import { AiFillStar, AiOutlineStar } from 'react-icons/ai';
 
 
 export default function Reviews() {
@@ -15,7 +15,7 @@ export default function Reviews() {
             case 0:
                 return "Evaluate";
             case 1:
-                return "Dissatifation";
+                return "Disappointed 😞";
             case 2:
                 return "Unsatisfied";
             case 3:
@@ -74,14 +74,13 @@ export default function Reviews() {
 
                 <div className="popup">
                     <div className="content">
-                        <div className="product">
-                            <img
-                                style={{ width: 60, height: 60, objectFit: "cover" }}
-                                src="https://tanhungphatit.vn/images/detailed/93/iphone-13-blue-1-600x600.jpg"
-                                alt="name"
-                            />
-                            <h1>Iphone 13</h1>
+                    <img src="https://media.baamboozle.com/uploads/images/59285/1607706108_132637" alt="banner" width="auto"></img>  
+                        <div className="product">    
+                        <p>How satisfied were you were our services?</p>   
+
                         </div>
+                        
+
                         <div>
                             <h1>{handleText()}</h1>
                             {Array(5)
