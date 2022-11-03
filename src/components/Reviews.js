@@ -13,19 +13,19 @@ export default function Reviews() {
     const handleText = () => {
         switch (number || hoverStar) {
             case 0:
-                return "Evaluate";
+                return 'Rate me!';
             case 1:
-                return "Disappointed 😞";
+                return 'I hated it! 😠';
             case 2:
-                return "Unsatisfied";
+                return 'I did not like it! 😞';
             case 3:
-                return "Normal";
+                return "It was alright! 👌";
             case 4:
-                return "Satisfied";
+                return "It was awesome! 😎";
             case 5:
-                return "Very Satisfied";
+                return "I loved it! 😍";
             default:
-                return "Evaluate";
+                return "Rate me!";
         }
     };
 
@@ -45,10 +45,8 @@ export default function Reviews() {
         }
     };
 
-
     return (
         <div className="App">
-
             <nav className="navbar">
                 <div className="Logo">
                     <h1>Logo</h1>
@@ -71,16 +69,11 @@ export default function Reviews() {
             </nav>
 
             <main className="App-header">
-
+                
                 <div className="popup">
                     <div className="content">
-                    <img src="https://media.baamboozle.com/uploads/images/59285/1607706108_132637" alt="banner" width="auto"></img>  
-                        <div className="product">    
-                        <p>How satisfied were you were our services?</p>   
-
-                        </div>
-                        
-
+                        <img src="https://media.baamboozle.com/uploads/images/59285/1607706108_132637" alt="banner" width="auto"></img>
+                        <p>How satisfied were you were our services?</p>
                         <div>
                             <h1>{handleText()}</h1>
                             {Array(5)
@@ -90,14 +83,14 @@ export default function Reviews() {
                                         <AiFillStar
                                             onMouseOver={() => !number && setHoverStar(index + 1)}
                                             onMouseLeave={() => setHoverStar(undefined)}
-                                            style={{ color: "orange" }}
-                                            onClick={() => setNumber(index + 1)}
+                                            style={{ color: "black" }}
+                                            onClick={() => setNumber(index + 1)} 
                                         />
                                     ) : (
                                         <AiOutlineStar
                                             onMouseOver={() => !number && setHoverStar(index + 1)}
                                             onMouseLeave={() => setHoverStar(undefined)}
-                                            style={{ color: "orange" }}
+                                            style={{ color: "black" }}
                                             onClick={() => setNumber(index + 1)}
                                         />
                                     )
@@ -108,7 +101,6 @@ export default function Reviews() {
                     </div>
                 </div>
             </main>
-
 
             <footer className="App-footer">
                 <h1>We make homes clean, safe, healthy.</h1>

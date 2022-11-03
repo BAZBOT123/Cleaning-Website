@@ -1,9 +1,4 @@
-.App {
-    font-family: sans-serif;
-    text-align: center;
-  }
-  
-  .popup {
+.popup {
     top: 0;
     left: 0;
     right: 0;
@@ -39,8 +34,8 @@
     padding: 10px;
   }
   button {
-    background: blue;
-    color: #fff;
+    background: #cd848d;
+    color: white;
     margin-top: 10px;
     width: 100%;
     border-radius: 6px;
