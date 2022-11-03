@@ -1,7 +1,6 @@
 import './Contact.css';
 import { Link } from "react-router-dom"
 import { ReactComponent as InstgramSvg } from '../assets/instagram-brands.svg';
-
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
@@ -22,10 +21,6 @@ export default function Contact() {
     };
 
 
-
-
-
-
     return (
         <div className="App">
 
@@ -35,7 +30,6 @@ export default function Contact() {
                 </div>
                 <div className="Home-page">
                     <h1 className='home-font'><Link to='/home'>Home</Link></h1>
-
                 </div>
                 <div className="Reviews-page">
                     <h1 className='reviews-font'><Link to='/reviews'>Reviews</Link></h1>
@@ -51,7 +45,6 @@ export default function Contact() {
                 </div>
             </nav>
             <main className="App-header">
-
                 <h2 className="contacts-subheader">Send us a cleaning request.</h2>
                 <p className="contacts-paragraph">If you require additional information please contact us and our staff of qualified professionals will be happy to assist you. If using the form to reach us, please expect a response within 24 hours. Thank you.</p>
                 <div className="Contacts-main">
@@ -69,7 +62,6 @@ export default function Contact() {
 
                     </div>
 
-
                     <div className="contact-right-contents">
                         <h3>Contact details:</h3>
                         <p>Tel: +44 7964 199 000</p>
@@ -78,7 +70,6 @@ export default function Contact() {
                     </div>
                 </div>
             </ main>
-
 
             <footer className="App-footer">
                 <h1>We make homes clean, safe, healthy.</h1>

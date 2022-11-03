@@ -69,13 +69,15 @@ export default function Reviews() {
             </nav>
 
             <main className="App-header">
-                
-                <div className="popup">
-                    <div className="content">
+
+                <div className="reviews-main">
+
+                    <p>hello!!</p>
+
+                    <div className="widget">
                         <img src="https://media.baamboozle.com/uploads/images/59285/1607706108_132637" alt="banner" width="auto"></img>
-                        <p>How satisfied were you were our services?</p>
                         <div>
-                            <h1>{handleText()}</h1>
+                            <h1 className='placeholder-text'>{handleText()}</h1>
                             {Array(5)
                                 .fill()
                                 .map((_, index) =>
@@ -84,7 +86,7 @@ export default function Reviews() {
                                             onMouseOver={() => !number && setHoverStar(index + 1)}
                                             onMouseLeave={() => setHoverStar(undefined)}
                                             style={{ color: "black" }}
-                                            onClick={() => setNumber(index + 1)} 
+                                            onClick={() => setNumber(index + 1)}
                                         />
                                     ) : (
                                         <AiOutlineStar
@@ -98,6 +100,18 @@ export default function Reviews() {
                         </div>
                         <textarea placeholder={handlePlaceHolder()}></textarea>
                         <button className={` ${!number && "disabled"} `}>Submit</button>
+                    </div>
+                    
+                    <div className="all-cards">
+                        <div className='review-card'>
+                            <h1 className="review-text">helloooooo!</h1>
+                        </div>
+                        <div className='review-card'>
+                            <h1 className="review-text">helloooooo!</h1>
+                        </div>
+                        <div className='review-card'>
+                            <h1 className="review-text">helloooooo!</h1>
+                        </div>
                     </div>
                 </div>
             </main>

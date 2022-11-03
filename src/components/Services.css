@@ -3,9 +3,7 @@
     gap: 5px;
     grid-template-columns: 1fr 1fr;
     border: 1px solid green;
-
   }
-
 
   .box {
     min-width: 40px;

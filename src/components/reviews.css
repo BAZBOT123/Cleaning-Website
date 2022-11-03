@@ -1,25 +1,22 @@
-.popup {
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-  }
-  .content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.reviews-main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+  .widget {
     background: #556380;
     padding: 20px;
     border-radius: 10px;
     width: 405px;
     border: 0.15em solid #806f49;
-  
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 17em;
   }
   .product {
     display: flex;
@@ -37,8 +34,8 @@
     background: #cd848d;
     color: white;
     margin-top: 10px;
-    width: 100%;
-    border-radius: 6px;
+    width: 25em;
+    border-radius: 1px;
     padding: 10px 0;
     border: none;
     font-weight: bolder;
@@ -48,4 +45,20 @@
     opacity: 0.5;
     pointer-events: none;
   }
-  
+
+h1.placeholder-text {
+    color: black;
+    font-size: 1em;
+    margin: .2em;
+  }
+
+  .review-card {
+    border: 0.15em solid #806f49;
+    border-radius: 1em;
+  }
+
+  .all-cards {
+    display: flex;
+    background-color: #282c34;
+    gap: 4em;
+  }

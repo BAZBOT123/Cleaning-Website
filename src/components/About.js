@@ -3,9 +3,6 @@ import './about.css';
 import { Link } from "react-router-dom"
 import { ReactComponent as InstgramSvg }  from '../assets/instagram-brands.svg'; 
 
-
-
-
 export default function About() {
   return (
     <div className="App">
@@ -16,7 +13,6 @@ export default function About() {
         </div>
         <div className="Home-page">
           <h1 className='home-font'><Link to='/home'>Home</Link></h1>
-
         </div>
         <div className="Reviews-page">
           <h1 className='reviews-font'><Link to='/reviews'>Reviews</Link></h1>

@@ -8,7 +8,6 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Intro from './components/Intro'
 
-
 export default function App() {
   const [cleaners, setCleaners] = useState(null)
   const url = 'http://localhost:3000/'

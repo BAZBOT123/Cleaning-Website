@@ -12,7 +12,7 @@ const slideImages = [
     caption: 'Slide 1'
   },
   {
-    url: 'images/slide_3.jpg',
+    url: '.../assets/hoovering.jpeg',
     caption: 'Slide 2'
   },
   {
@@ -32,7 +32,6 @@ export default function Home() {
         </div>
         <div className="Home-page">
           <h1 className='home-font'><Link to='/home'>Home</Link></h1>
-
         </div>
         <div className="Reviews-page">
           <h1 className='reviews-font'><Link to='/reviews'>Reviews</Link></h1>
@@ -64,7 +63,6 @@ export default function Home() {
       
 
       <div>
-
       <p>pppp</p>
       </div>
 
