@@ -6,6 +6,7 @@ import { faBroom } from '@fortawesome/free-solid-svg-icons';
 // eslint-disable-next-line no-unused-vars
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
+import AnimatedPage from './AnimatedPage'
 
 
 const slideImages = [
@@ -26,8 +27,8 @@ const slideImages = [
 
 export default function Home() {
   return (
+    <AnimatedPage>
     <div className="App">
-
       <nav className="navbar">
         <div className="logo-svg">
           <FontAwesomeIcon icon={faBroom}></FontAwesomeIcon>
@@ -78,5 +79,6 @@ export default function Home() {
         <h1 className='follow-us'>Follow us:  <a href="https://www.google.com/"><InstgramSvg /></a></h1>
       </footer>
     </div>
+    </AnimatedPage>
   );
 }

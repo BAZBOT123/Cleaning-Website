@@ -4,17 +4,19 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBroom } from '@fortawesome/free-solid-svg-icons';
 
+
 export default function Intro() {
     return (
-        <main className="intro-main">
-            <div>
-                <Link to='/home'>
-                    <button type="button" className="btn btn-info">
+       
+            <main className="intro-main">
+                <div>
+                    <Link to='/home'>
                         <div className="logo-svg">
                             <FontAwesomeIcon icon={faBroom}></FontAwesomeIcon>
-                        </div></button>
-                </Link>
-            </div>
-        </main>
+                        </div>
+                    </Link>
+                </div>
+            </main>
+  
     );
 }
