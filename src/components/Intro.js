@@ -7,16 +7,14 @@ import { faBroom } from '@fortawesome/free-solid-svg-icons';
 
 export default function Intro() {
     return (
-       
-            <main className="intro-main">
-                <div>
-                    <Link to='/home'>
-                        <div className="logo-svg">
-                            <FontAwesomeIcon icon={faBroom}></FontAwesomeIcon>
-                        </div>
-                    </Link>
-                </div>
-            </main>
-  
+        <main className="intro-main">
+            <div>
+                <Link to='/home'>
+                    <div className="logo-svg">
+                        <FontAwesomeIcon icon={faBroom}></FontAwesomeIcon>
+                    </div>
+                </Link>
+            </div>
+        </main>
     );
 }

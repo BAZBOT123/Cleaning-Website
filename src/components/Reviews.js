@@ -7,7 +7,6 @@ import { useState } from 'react';
 import { AiFillStar, AiOutlineStar } from 'react-icons/ai';
 
 
-
 export default function Reviews() {
 
     const [number, setNumber] = useState(0);
@@ -49,86 +48,86 @@ export default function Reviews() {
     };
 
     return (
-        <div className="App">
-            <nav className="navbar">
-                <div className="logo-svg">
-                    <FontAwesomeIcon icon={faBroom}></FontAwesomeIcon>
-                </div>
-                <div className="Home-page">
-                    <h1 className='home-font'><Link to='/home'>Home</Link></h1>
-                </div>
-                <div className="Reviews-page">
-                    <h1 className='reviews-font'><Link to='/reviews'>Reviews</Link></h1>
-                </div>
-                <div className="Services-page">
-                    <h1 className='services-font'><Link to='/services'>Services</Link></h1>
-                </div>
-                <div className="About-page">
-                    <h1 className='cbout-font'><Link to='/about'>About</Link></h1>
-                </div>
-                <div className="Contact-page">
-                    <h1 className='contact-font'><Link to='/contact'>Contact</Link></h1>
-                </div>
-            </nav>
-
-            <main className="App-header">
-
-                <div className="reviews-main">
-
-                    <p>hello!!</p>
-
-                    <div className="widget">
-                        <img src="https://media.baamboozle.com/uploads/images/59285/1607706108_132637" alt="banner" width="auto"></img>
-                        <div>
-                            <h1 className='placeholder-text'>{handleText()}</h1>
-                            {Array(5)
-                                .fill()
-                                .map((_, index) =>
-                                    number >= index + 1 || hoverStar >= index + 1 ? (
-                                        <AiFillStar
-                                            onMouseOver={() => !number && setHoverStar(index + 1)}
-                                            onMouseLeave={() => setHoverStar(undefined)}
-                                            style={{ color: "black" }}
-                                            onClick={() => setNumber(index + 1)}
-                                        />
-                                    ) : (
-                                        <AiOutlineStar
-                                            onMouseOver={() => !number && setHoverStar(index + 1)}
-                                            onMouseLeave={() => setHoverStar(undefined)}
-                                            style={{ color: "black" }}
-                                            onClick={() => setNumber(index + 1)}
-                                        />
-                                    )
-                                )}
-                        </div>
-                        <textarea placeholder={handlePlaceHolder()}></textarea>
-                        <button className={` ${!number && "disabled"} `}>Submit</button>
+            <div className="App">
+                <nav className="navbar">
+                    <div className="logo-svg">
+                        <FontAwesomeIcon icon={faBroom}></FontAwesomeIcon>
                     </div>
+                    <div className="Home-page">
+                        <h1 className='home-font'><Link to='/home'>Home</Link></h1>
+                    </div>
+                    <div className="Reviews-page">
+                        <h1 className='reviews-font'><Link to='/reviews'>Reviews</Link></h1>
+                    </div>
+                    <div className="Services-page">
+                        <h1 className='services-font'><Link to='/services'>Services</Link></h1>
+                    </div>
+                    <div className="About-page">
+                        <h1 className='cbout-font'><Link to='/about'>About</Link></h1>
+                    </div>
+                    <div className="Contact-page">
+                        <h1 className='contact-font'><Link to='/contact'>Contact</Link></h1>
+                    </div>
+                </nav>
 
-                    <div className="all-cards">
-                        <div className='review-card'>
-                            <h1 className="review-text">helloooooo!</h1>
+                <main className="App-header">
+
+                    <div className="reviews-main">
+
+                        <p>hello!!</p>
+
+                        <div className="widget">
+                            <img src="https://media.baamboozle.com/uploads/images/59285/1607706108_132637" alt="banner" width="auto"></img>
+                            <div>
+                                <h1 className='placeholder-text'>{handleText()}</h1>
+                                {Array(5)
+                                    .fill()
+                                    .map((_, index) =>
+                                        number >= index + 1 || hoverStar >= index + 1 ? (
+                                            <AiFillStar
+                                                onMouseOver={() => !number && setHoverStar(index + 1)}
+                                                onMouseLeave={() => setHoverStar(undefined)}
+                                                style={{ color: "black" }}
+                                                onClick={() => setNumber(index + 1)}
+                                            />
+                                        ) : (
+                                            <AiOutlineStar
+                                                onMouseOver={() => !number && setHoverStar(index + 1)}
+                                                onMouseLeave={() => setHoverStar(undefined)}
+                                                style={{ color: "black" }}
+                                                onClick={() => setNumber(index + 1)}
+                                            />
+                                        )
+                                    )}
+                            </div>
+                            <textarea placeholder={handlePlaceHolder()}></textarea>
+                            <button className={` ${!number && "disabled"} `}>Submit</button>
                         </div>
-                        <div className='review-card'>
-                            <h1 className="review-text">helloooooo!</h1>
-                        </div>
-                        <div className='review-card'>
-                            <h1 className="review-text">helloooooo!</h1>
-                        </div>
-                        <div className='review-card'>
-                            <h1 className="review-text">helloooooo!</h1>
-                        </div>
-                        <div className='review-card'>
-                            <h1 className="review-text">helloooooo!</h1>
+
+                        <div className="all-cards">
+                            <div className='review-card'>
+                                <h1 className="review-text">helloooooo!</h1>
+                            </div>
+                            <div className='review-card'>
+                                <h1 className="review-text">helloooooo!</h1>
+                            </div>
+                            <div className='review-card'>
+                                <h1 className="review-text">helloooooo!</h1>
+                            </div>
+                            <div className='review-card'>
+                                <h1 className="review-text">helloooooo!</h1>
+                            </div>
+                            <div className='review-card'>
+                                <h1 className="review-text">helloooooo!</h1>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </main>
+                </main>
 
-            <footer className="App-footer">
-                <h1>We make homes clean, safe, healthy.</h1>
-                <h1 className='follow-us'>Follow us:  <a href="https://www.google.com/"><InstgramSvg /></a></h1>
-            </footer>
-        </div>
+                <footer className="App-footer">
+                    <h1>We make homes clean, safe, healthy.</h1>
+                    <h1 className='follow-us'>Follow us:  <a href="https://www.google.com/"><InstgramSvg /></a></h1>
+                </footer>
+            </div>
     );
 }

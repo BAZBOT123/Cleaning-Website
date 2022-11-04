@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBroom } from '@fortawesome/free-solid-svg-icons';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import AnimatedPage from './AnimatedPage'
 
 export default function Contact() {
 
@@ -21,7 +22,6 @@ export default function Contact() {
                 console.log(error.text);
             });
     };
-
 
     return (
         <div className="App">
