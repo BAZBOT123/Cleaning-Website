@@ -73,7 +73,7 @@ export default function Contact() {
 
             <footer className="App-footer">
                 <h1>We make homes clean, safe, healthy.</h1>
-                <h1 className='follow-us'>Follow us:  <a href="https://www.google.com/"><InstgramSvg /></a></h1>
+                <h1 className='follow-us'>Follow us:  <a href="https://www.instagram.com"><InstgramSvg /></a></h1>
             </footer>
         </div>
     );

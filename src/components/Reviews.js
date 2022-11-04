@@ -101,8 +101,14 @@ export default function Reviews() {
                         <textarea placeholder={handlePlaceHolder()}></textarea>
                         <button className={` ${!number && "disabled"} `}>Submit</button>
                     </div>
-                    
+
                     <div className="all-cards">
+                        <div className='review-card'>
+                            <h1 className="review-text">helloooooo!</h1>
+                        </div>
+                        <div className='review-card'>
+                            <h1 className="review-text">helloooooo!</h1>
+                        </div>
                         <div className='review-card'>
                             <h1 className="review-text">helloooooo!</h1>
                         </div>
