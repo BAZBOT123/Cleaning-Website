@@ -2,16 +2,16 @@ import '../App.css';
 import './Services.css';
 import { Link } from "react-router-dom"
 import { ReactComponent as InstgramSvg } from '../assets/instagram-brands.svg';
-
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBroom } from '@fortawesome/free-solid-svg-icons';
 
 export default function Services() {
     return (
         <div className="App">
 
             <nav className="navbar">
-                <div className="Logo">
-                    <h1>Logo</h1>
+                <div className="logo-svg">
+                    <FontAwesomeIcon icon={faBroom}></FontAwesomeIcon>
                 </div>
                 <div className="Home-page">
                     <h1 className='home-font'><Link to='/home'>Home</Link></h1>
@@ -36,21 +36,21 @@ export default function Services() {
                     That is why our team will do their best not to disappoint you,
                     handling everything according to your specifications and requests.
                     So many people so many tastes, this is why we customize our services to you and to your budget.
-                    
+
                 </p>
                 <div>
-    <h2>Commercial cleaning</h2>
-    <div class="container three-column-grid">
-      <div class="box"></div>
-      <div class="box">Lily's Cleaners makes it easier than ever to maintain a clean, organized, and productive office space.</div>
-      <div class="box"></div>
-      <div class="box"></div>
-      <div class="box"></div>
-      <div class="box"></div>
-      <div class="box"></div>
-      <div class="box"></div>
-    </div>
-  </div>
+                    <h2>Commercial cleaning</h2>
+                    <div class="container three-column-grid">
+                        <div class="box"></div>
+                        <div class="box">Lily's Cleaners makes it easier than ever to maintain a clean, organized, and productive office space.</div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                    </div>
+                </div>
             </main>
 
             <footer className="App-footer">

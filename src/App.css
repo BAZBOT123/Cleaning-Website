@@ -83,3 +83,6 @@ svg {
   transition: 0.8s;
 }
 
+.svg-inline--fa {
+  height: 1.7em
+}

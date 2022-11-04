@@ -1,15 +1,16 @@
 import '../App.css';
 import './about.css';
-import { Link } from "react-router-dom"
-import { ReactComponent as InstgramSvg }  from '../assets/instagram-brands.svg'; 
+import { Link } from "react-router-dom";
+import { ReactComponent as InstgramSvg } from '../assets/instagram-brands.svg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBroom } from '@fortawesome/free-solid-svg-icons';
 
 export default function About() {
   return (
     <div className="App">
-
       <nav className="navbar">
-        <div className="Logo">
-          <h1>Logo</h1>
+        <div className="logo-svg">
+          <FontAwesomeIcon icon={faBroom}></FontAwesomeIcon>
         </div>
         <div className="Home-page">
           <h1 className='home-font'><Link to='/home'>Home</Link></h1>

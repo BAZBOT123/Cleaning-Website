@@ -1,6 +1,8 @@
 import './home.css';
 import { Link } from "react-router-dom"
 import { ReactComponent as InstgramSvg } from '../assets/instagram-brands.svg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBroom } from '@fortawesome/free-solid-svg-icons';
 // eslint-disable-next-line no-unused-vars
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
@@ -27,8 +29,8 @@ export default function Home() {
     <div className="App">
 
       <nav className="navbar">
-        <div className="Logo">
-          <h1>Logo</h1>
+        <div className="logo-svg">
+          <FontAwesomeIcon icon={faBroom}></FontAwesomeIcon>
         </div>
         <div className="Home-page">
           <h1 className='home-font'><Link to='/home'>Home</Link></h1>
@@ -49,22 +51,22 @@ export default function Home() {
 
       <main className="App-header">
 
-      <div className="slide-container">
-        <Slide>
-         {slideImages.map((slideImage, index)=> (
-            <div className="each-slide" key={index}>
-              <div style={{'backgroundImage': `url(${slideImage.url})`}}>
-                <span>{slideImage.caption}</span>
+        <div className="slide-container">
+          <Slide>
+            {slideImages.map((slideImage, index) => (
+              <div className="each-slide" key={index}>
+                <div style={{ 'backgroundImage': `url(${slideImage.url})` }}>
+                  <span>{slideImage.caption}</span>
+                </div>
               </div>
-            </div>
-          ))} 
-        </Slide>
-      </div>
-      
+            ))}
+          </Slide>
+        </div>
 
-      <div>
-      <p>pppp</p>
-      </div>
+
+        <div>
+          <p>pppp</p>
+        </div>
 
 
 

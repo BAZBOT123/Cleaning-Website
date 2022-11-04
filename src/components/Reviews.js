@@ -1,8 +1,11 @@
 import '../components/reviews.css';
 import { Link } from "react-router-dom"
 import { ReactComponent as InstgramSvg } from '../assets/instagram-brands.svg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBroom } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
 import { AiFillStar, AiOutlineStar } from 'react-icons/ai';
+
 
 
 export default function Reviews() {
@@ -48,8 +51,8 @@ export default function Reviews() {
     return (
         <div className="App">
             <nav className="navbar">
-                <div className="Logo">
-                    <h1>Logo</h1>
+                <div className="logo-svg">
+                    <FontAwesomeIcon icon={faBroom}></FontAwesomeIcon>
                 </div>
                 <div className="Home-page">
                     <h1 className='home-font'><Link to='/home'>Home</Link></h1>
