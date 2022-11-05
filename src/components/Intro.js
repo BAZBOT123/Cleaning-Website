@@ -14,6 +14,8 @@ export default function Intro() {
                         <FontAwesomeIcon icon={faBroom}></FontAwesomeIcon>
                     </div>
                 </Link>
+
+             <h1 className="into-text"> Click to enter</h1>
             </div>
         </main>
     );

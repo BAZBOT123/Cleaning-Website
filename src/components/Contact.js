@@ -1,11 +1,9 @@
 import './Contact.css';
 import { Link } from "react-router-dom"
 import { ReactComponent as InstgramSvg } from '../assets/instagram-brands.svg';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBroom } from '@fortawesome/free-solid-svg-icons';
+import Logo from '../assets/lilys.jpg'
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import AnimatedPage from './AnimatedPage'
 
 export default function Contact() {
 
@@ -27,8 +25,8 @@ export default function Contact() {
         <div className="App">
 
             <nav className="navbar">
-                <div className="logo-svg">
-                    <FontAwesomeIcon icon={faBroom}></FontAwesomeIcon>
+                <div className="logo-lily">
+                    <img src={Logo} alt="Girl in a jacket" height="45"></img>
                 </div>
                 <div className="Home-page">
                     <h1 className='home-font'><Link to='/home'>Home</Link></h1>

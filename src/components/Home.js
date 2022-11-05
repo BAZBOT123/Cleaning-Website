@@ -1,8 +1,7 @@
 import './home.css';
 import { Link } from "react-router-dom"
 import { ReactComponent as InstgramSvg } from '../assets/instagram-brands.svg';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBroom } from '@fortawesome/free-solid-svg-icons';
+import Logo from '../assets/lilys.jpg'
 // eslint-disable-next-line no-unused-vars
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
@@ -30,8 +29,8 @@ export default function Home() {
     <AnimatedPage>
       <div className="App">
         <nav className="navbar">
-          <div className="logo-svg">
-            <FontAwesomeIcon icon={faBroom}></FontAwesomeIcon>
+          <div className="logo-lily">
+            <img src={Logo} alt="Girl in a jacket" height="45"></img>
           </div>
           <div className="Home-page">
             <h1 className='home-font'><Link to='/home'>Home</Link></h1>

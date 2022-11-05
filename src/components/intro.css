@@ -1,5 +1,5 @@
 .intro-main {
-    background-color: #282c34;
+    background-color: #556380;
     height:100vh;
     display: flex;
     flex-direction: column;
@@ -8,3 +8,25 @@
     font-size: calc(10px + 2vmin);
     color: white;
 }
+
+.logo-svg {
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.into-text {
+    font-size: .8em;
+    color: black;
+    margin-bottom: 0.5em;
+}
+
+.svg-inline--fa {
+    height: 2em;
+}
+
+.logo-svg:hover {
+    color: #9a8761;
+    transition: .9s;
+  }
