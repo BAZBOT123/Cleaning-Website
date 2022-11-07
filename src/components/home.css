@@ -1,3 +1,19 @@
 .SlideImages {
 height: 10em;
 }
+
+
+.each-slide.effect > div {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-size: cover;
+    height: 350px;
+}
+
+.each-slide.effect span {
+    padding: 20px;
+    font-size: 20px;
+    background-color: #efefef;
+    text-align: center;
+}
