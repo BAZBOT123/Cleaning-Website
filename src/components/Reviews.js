@@ -126,15 +126,15 @@ export default function Reviews() {
                         </div>
                         <div className='review-card'>
                             <div>
-                                <h1 className="review-name">Mrs Barratt Campbell</h1> 
+                                <h1 className="review-name">Mrs Campbell</h1> 
                             </div>
                             <div className='review-text-box'>
-                                <h1 className="review-text">""</h1>
+                                <h1 className="review-text">"Thank you!"</h1>
                             </div>
                         </div>
                         <div className='review-card'>
                             <div>
-                                <h1 className="review-name">Oxanna</h1>
+                                <h1 className="review-name">Mrs Oxanna</h1>
                             </div>
                             <div className='review-text-box'>
                                 <h1 className="review-text">"Amazing cooking & cleaning"</h1>
