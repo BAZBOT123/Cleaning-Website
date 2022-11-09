@@ -107,65 +107,45 @@ export default function Reviews() {
                     <div className='review-card'>
                             <div>
                                 <h1 className="review-name">
+                                    CBE Ogston
                                 </h1>
-                                <h1 className='review-date'>
-                                    md
-                                </h1>
+                                
                             </div>
                             <div className='review-text-box'>
-                                <h1 className="review-text">helloooooo!</h1>
+                                <h1 className="review-text">"Exceptional service!"</h1>
                             </div>
                         </div>
                         <div className='review-card'>
                             <div>
-                                <h1 className="review-name">
-
-                                </h1>
-                                <h1 className='review-date'>
-                                    
-                                </h1>
+                                <h1 className="review-name">Mr Uggla</h1>
+                             
                             </div>
                             <div className='review-text-box'>
-                                <h1 className="review-text">helloooooo!</h1>
+                                <h1 className="review-text">"Thank you for everything!"</h1>
                             </div>
                         </div>
                         <div className='review-card'>
                             <div>
-                                <h1 className="review-name">
-
-                                </h1>
-                                <h1 className='review-date'>
-                                    md
-                                </h1>
+                                <h1 className="review-name">Mrs Barratt Campbell</h1> 
                             </div>
                             <div className='review-text-box'>
-                                <h1 className="review-text">helloooooo!</h1>
+                                <h1 className="review-text">""</h1>
                             </div>
                         </div>
                         <div className='review-card'>
                             <div>
-                                <h1 className="review-name">
-
-                                </h1>
-                                <h1 className='review-date'>
-                                    md
-                                </h1>
+                                <h1 className="review-name">Oxanna</h1>
                             </div>
                             <div className='review-text-box'>
-                                <h1 className="review-text">helloooooo!</h1>
+                                <h1 className="review-text">"Amazing cooking & cleaning"</h1>
                             </div>
                         </div>
                         <div className='review-card'>
                             <div>
-                                <h1 className="review-name">
-
-                                </h1>
-                                <h1 className='review-date'>
-                                    md
-                                </h1>
+                                <h1 className="review-name">Mr Yue</h1>
                             </div>
                             <div className='review-text-box'>
-                                <h1 className="review-text">helloooooo!</h1>
+                                <h1 className="review-text">"I am so happy with the work you have done!"</h1>
                             </div>
                         </div>
                     </div>
