@@ -60,27 +60,43 @@ h1.placeholder-text {
   .all-cards {
     display: flex;
     background-color: #282c34;
-    gap: 4em;
+    gap: 2em;
   }
 
 
   .review-card {
-
-    width: 10em;
-    height: 11em;
+    width: 8em;
+    height: 4.5em;
+    background-color: #556380;
   }
 
-  .review-name {
+.review-name-box {
+  padding-bottom: .2em;
+
+}
+
+  #review-name {
+    font-size: .9em;
     height: 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: black;
   }
 
   .review-text-box {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 8em;
+    height: 2em;
+    font-weight: normal;
+
+  }
+
+  #review-text {
+    font-weight: normal;
+    font-size: .8em;
+    margin: 0;
+    color: black;
   }
