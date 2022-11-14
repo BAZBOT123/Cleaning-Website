@@ -1,4 +1,4 @@
-.reviews-main{
+.reviews-main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -6,118 +6,101 @@
   gap: 1em;
 }
 
-  .widget {
-    background: #556380;
-    padding: 20px;
-    border-radius: 10px;
-    width: 405px;
-    border: 0.15em solid #806f49;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 17em;
-  }
-  .product {
-    display: flex;
-    align-items: center;
-  }
-  .product h1 {
-    font-size: 20px;
-  }
-  textarea {
-    width: 100%;
-    border-radius: 6px;
-    padding: 10px;
-  }
-  button {
-    background: #cd848d;
-    color: white;
-    margin-top: 10px;
-    width: 25em;
-    border-radius: 1px;
-    padding: 10px 0;
-    border: none;
-    font-weight: bolder;
-    cursor: pointer;
-  }
-  button.disabled {
-    opacity: 0.5;
-    pointer-events: none;
-  }
+.widget {
+  background: #556380;
+  padding: 20px;
+  border-radius: 10px;
+  width: 405px;
+  border: 0.15em solid #806f49;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 17em;
+}
+.product {
+  display: flex;
+  align-items: center;
+}
+.product h1 {
+  font-size: 20px;
+}
+textarea {
+  width: 100%;
+  border-radius: 6px;
+  padding: 10px;
+}
+button {
+  background: #cd848d;
+  color: white;
+  margin-top: 10px;
+  width: 25em;
+  border-radius: 1px;
+  padding: 10px 0;
+  border: none;
+  font-weight: bolder;
+  cursor: pointer;
+}
+button.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
 
 h1.placeholder-text {
-    color: black;
-    font-size: 1em;
-    margin: .2em;
-  }
+  color: black;
+  font-size: 1em;
+  margin: 0.2em;
+}
 
-  .review-card {
-    border: 0.15em solid #806f49;
-    border-radius: 1em;
-  }
+.review-card {
+  border: 0.15em solid #806f49;
+  border-radius: 1em;
+}
 
-  .all-cards {
-    display: flex;
-    background-color: #282c34;
-    gap: 2em;
-  }
+.all-cards {
+  display: flex;
+  background-color: #282c34;
+  gap: 2em;
+  width: 100%;
+  overflow: scroll;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
 
-
-  .review-card {
-    width: 8em;
-    height: 4.5em;
-    background-color: #556380;
-  }
+.review-card {
+  width: 8em;
+  height: 4.5em;
+  background-color: #556380;
+}
 
 .review-name-box {
-  padding-bottom: .2em;
-
+  padding-bottom: 0.2em;
 }
 
-  #review-name {
-    font-size: .9em;
-    height: 1em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: black;
-  }
-
-  .review-text-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 2em;
-    font-weight: normal;
-
-  }
-
-  #review-text {
-    font-weight: normal;
-    font-size: .8em;
-    margin: 0;
-    color: black;
-  }
-
-  div.all-cards {
-    display: flex;
-    overflow: auto;
-    white-space: nowrap;
-    background-color: #333;
-  }
-
-
-
-  div.all-cards a {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
+#review-name {
+  font-size: 0.9em;
+  height: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
 }
 
-div.all-cards a:hover {
-  background-color: #777;
+.review-text-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2em;
+  min-width: 7em;
+  font-weight: normal;
 }
+
+#review-text {
+  font-weight: normal;
+  font-size: 0.8em;
+  margin: 0;
+  width: 7em;
+  color: black;
+}
+
