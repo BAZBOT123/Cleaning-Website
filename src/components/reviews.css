@@ -62,9 +62,10 @@ h1.placeholder-text {
   background-color: #282c34;
   gap: 2em;
   width: 100%;
-  overflow: scroll;
+
+  overflow: auto;
   white-space: nowrap;
-  text-overflow: ellipsis;
+
 }
 
 .review-card {
@@ -94,13 +95,14 @@ h1.placeholder-text {
   height: 2em;
   min-width: 7em;
   font-weight: normal;
+  inline-size: min-content;
 }
 
 #review-text {
   font-weight: normal;
   font-size: 0.8em;
   margin: 0;
-  width: 7em;
+
   color: black;
 }
 

@@ -10,7 +10,7 @@ export default function Services() {
 
             <nav className="navbar">
                 <div className="logo-lily">
-                <img src={Logo} alt="Girl in a jacket" height="45"></img>
+                    <img src={Logo} alt="Girl in a jacket" height="45"></img>
                 </div>
                 <div className="Home-page">
                     <h1 className='home-font'><Link to='/home'>Home</Link></h1>
@@ -40,14 +40,72 @@ export default function Services() {
                 <div>
                     <h2>Commercial cleaning</h2>
                     <div class="container three-column-grid">
-                        <div class="box"></div>
-                        <div class="box">Lily's Cleaners makes it easier than ever to maintain a clean, organized, and productive office space.</div>
-                        <div class="box"></div>
-                        <div class="box"></div>
-                        <div class="box"></div>
-                        <div class="box"></div>
-                        <div class="box"></div>
-                        <div class="box"></div>
+                        <div class="box">HOUSE CLEANING</div>
+                        <div class="box">We know that every home is different and has specific accommodations and routines.
+                            All of our maids are experienced and fully trained to clean your home the best way,
+                            taking into consideration your surroundings and lifestyle,  to make you feel as if you have cleaned yourself,
+                            but without the hassle! Of course, we know that letting someone into your home it’s a big deal.
+                            That kind of trust is reserved only for family and friends. Here at eMaids, we take your safety and peace of mind very seriously.
+                            That’s why all of our maids are background and reference checked, insured, and bonded also. You can book your cleaning service easily,
+                            just in a few clicks. Our online system is fast and practical, so you don’t have to worry about calling.
+                            Choose between a single time cleaning or a recurring cleaning for a more low price
+                            (you can pick weekly, bi-weekly, or monthly packages).</div>
+
+                        <div class="box">OFFICE CLEANING</div>
+                        <div class="box">You take care of business, and we’ll handle the cleaning. When you have an office, 
+                        you need to keep it well-organized and cleaned for your employees and clients to see. 
+                        Whenever you need to wipe down some tables, vacuum the floors, or freshen up the office, 
+                        eMaids is the cleaning service you can rely on. The eMaids’ team is conformed by professional cleaners, 
+                        well trained, and ready to keep your office in top shape. And don’t worry, all of our maids are background checked, 
+                        insured, and bonded, so you can be sure that everything will be in order and secure. 
+                        You can book your cleaning service easily, just in a few clicks. Our online system is fast and practical, 
+                        so you don’t have to worry about calling. Choose between a single time cleaning or a recurring cleaning for a more low price 
+                        (you can pick weekly, bi-weekly, or monthly packages)</div>
+
+                        <div class="box">VACATION RENTAL CLEANING</div>
+                        <div class="box">We want your rental property to be so fresh and clean for you to show it to your future guests proudly. 
+                        Whether you are a local or national company or just a regular homeowner, our team of maids can efficiently deliver the job. 
+                        We provide only high-quality service while staying within budget, and during the time frame that you requested. 
+                        Also, every single cleaner that works with us passes through a strict selection process, including background and reference checking. 
+                        So, you can trust our maids with your property. 
+                        Lily's Cleaners operates in every location like a local company so that you may have a world-class cleaning service but with all the 
+                        flexibility and convenience that only a local company can provide. 
+                        Book today your cleaning service through our fast and secure online booking system.</div>
+
+                        <div class="box">DEEP CLEANING</div>
+                        <div class="box">A deep cleaning service is recommended for houses and offices that haven’t been cleaned in a while, 
+                        for first visit cleanings, or before and after an event. 
+                        Practically, a deep clean is needed whenever there’s been a lack of a professional clean that’s lasted weeks or even months. 
+                        We provide for you a complete checklist of all the cleaning tasks this service covers. 
+                        From dusting window frames to disinfecting bathroom surfaces, our maids will put special attention to detail. 
+                        Although this service can be really extense, we always stay under your budget and focus on your personal cleaning goals with an hourly rate. 
+                        Of course, we only sent to your home or office highly rated maids, background and reference checked, 
+                        so you don’t have to worry about letting us in at your place. Also, you can easily schedule your service in our online booking system</div>
+                        
+                        <div class="box">MOVE-IN/MOVE-OUT CLEANING</div>
+                        <div class="box">When you are moving to a new home, you probably are too busy for that last deep clean to your old house. 
+                        Or perhaps it’s your new home that needs cleaning? Whatever the case, our maids are ready to help you with this big step in your life. 
+                        We know that every move is different. Every house has it’s details that need specific attention, and a history that indicates where to clean the most. 
+                        Often our clients ask for closet and cabinets cleaning; fridge, oven, and other appliances; and windows and doorframes dusting. 
+                        You tell us your personal goals, and we’ll make you an estimated budget. Choose your cleaning tasks in our extensive checklist, and we’ll follow just as you request. 
+                        All of our maids are experienced and well-trained to accomplish this job. And also, you can book easily in our online booking system.</div>
+
+                        <div class="box">POST CONSTRUCTION CLEANING</div>
+                        <div class="box">This service usually is for commercial clients who are in the real state business, 
+                        but we provide post-construction cleaning to whichever homeowner that just have finished its remodeling or construction. 
+                        We must remove all the dust, dirt, and debris left behind from your new home or office. This is a job for an experienced and well-trained cleaner, 
+                        like our maids, who know the process of eliminating the particles of construction materials and know how to use the right equipment. 
+                        We assure you a high-quality job and a clean and smooth result. Also, we can include and schedule a complimentary cleaning session to your service 
+                        to guarantee the elimination of all debris and dust. Ask for our complete cleaning checklist with all the possible spots and areas to clean. Book easily 
+                        in our online booking system.</div>
+
+                        <div class="box">APARTMENT CLEANING</div>
+                        <div class="box">Either you want a frequent service with weekly or monthly scheduled sessions, or you just want a one-time cleaning with affordable hourly rates, 
+                        you better be sure that eMaids have the right service for you. We strive to always fit under our customer’s budget and adjust to their time frames. 
+                        Also, we take your safety and satisfaction very seriously; that’s why every one of our cleaners went through an extensive selection process, 
+                        where we check out their experience, profile, and background references. In addition to that, we insure and bond all of our maids, for you not to worry about anything. 
+                        Booking our apartment cleaning service means that you will have a five-star cleaning, a helpful high rated cleaner in your home, 
+                        and also you’ll be assigned to a project manager that will give proper tracing to your service. Book our cleaning service in just a few clicks</div>
                     </div>
                 </div>
             </main>
