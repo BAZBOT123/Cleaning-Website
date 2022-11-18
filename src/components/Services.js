@@ -54,14 +54,14 @@ export default function Services() {
 
                         <div class="box">OFFICE CLEANING</div>
                         <div class="box">OFFICE CLEANING<br />
-                            You take care of business, and we’ll handle the cleaning. When you have an office,
-                            you need to keep it well-organized and cleaned for your employees and clients to see.
-                            Whenever you need to wipe down some tables, vacuum the floors, or freshen up the office,
-                            eMaids is the cleaning service you can rely on. The eMaids’ team is conformed by professional cleaners,
-                            well trained, and ready to keep your office in top shape. And don’t worry, all of our maids are background checked,
-                            insured, and bonded, so you can be sure that everything will be in order and secure.
-                            You can book your cleaning service easily, just in a few clicks. Our online system is fast and practical,
-                            so you don’t have to worry about calling. Choose between a single time cleaning or a recurring cleaning for a more low price
+                            You can take care of the  business, and we’ll take care of the cleaning. When having an office,
+                            you would need to sustain having it well-organised and clean for employees or clients.
+                            Whenever the tables may need a good polish, the floors need a good vaccum, or the office needs freshened up,
+                            Lily's Cleaners can take care of it! Lily's Cleaners team is represented by professional cleaners,
+                            highly trained, and at the ready to keep your facilities in the nick of shape. And not to worry, all of our cleaners are background checked,
+                            and bonded, so rest assured everything will be in up to the highest standard and secure.
+                            You can book your slot of service easily, just with a simple call. A customer service attendant will be available to hear your requirements for long term or just for a one off service.
+                           You can arrange for a single slot cleaning or a recurring service for a essential price.
                             (you can pick weekly, bi-weekly, or monthly packages)</div>
 
                         <div class="box">VACATION RENTAL CLEANING</div>
