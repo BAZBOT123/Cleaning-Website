@@ -97,22 +97,23 @@ export default function Services() {
 
                         <div class="box">POST CONSTRUCTION CLEANING</div>
                         <div class="box">POST CONSTRUCTION CLEANING <br />
-                            This service usually is for commercial clients who are in the real state business,
+                            This service usually is for commercial clients who are in the real state business or may have a new renovated home, build, or apartment,
                             but we provide post-construction cleaning to whichever homeowner that just have finished its remodeling or construction.
                             We must remove all the dust, dirt, and debris left behind from your new home or office. This is a job for an experienced and well-trained cleaner,
-                            like our maids, who know the process of eliminating the particles of construction materials and know how to use the right equipment.
+                            like our cleaners, who know the process of eliminating the particles of construction materials and know how to use the right equipment.
                             We assure you a high-quality job and a clean and smooth result. Also, we can include and schedule a complimentary cleaning session to your service
-                            to guarantee the elimination of all debris and dust. Ask for our complete cleaning checklist with all the possible spots and areas to clean. Book easily
-                            in our online booking system.</div>
+                            to guarantee the elimination of all debris and dust. Ask for our complete cleaning checklist with all the possible spots and areas to clean. 
+                            Book easily by contacting us directly by a simple call.</div>
 
                         <div class="box">APARTMENT CLEANING</div>
                         <div class="box">APARTMENT CLEANING <br />
                             Either you want a frequent service with weekly or monthly scheduled sessions, or you just want a one-time cleaning with affordable hourly rates,
-                            you better be sure that eMaids have the right service for you. We strive to always fit under our customer’s budget and adjust to their time frames.
+                            you better be sure that Lily's Cleaners have the right service for you. We strive to always fit under our customer’s budget and adjust to their time frames.
                             Also, we take your safety and satisfaction very seriously; that’s why every one of our cleaners went through an extensive selection process,
                             where we check out their experience, profile, and background references. In addition to that, we insure and bond all of our maids, for you not to worry about anything.
                             Booking our apartment cleaning service means that you will have a five-star cleaning, a helpful high rated cleaner in your home,
-                            and also you’ll be assigned to a project manager that will give proper tracing to your service. Book our cleaning service in just a few clicks</div>
+                            and also you’ll be assigned to a project manager that will give proper tracing to your service. 
+                            Book our cleaning service by contacting us directly by a simple call.</div>
                     </div>
                 </div>
             </main>
