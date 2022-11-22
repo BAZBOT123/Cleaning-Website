@@ -42,14 +42,14 @@ export default function Services() {
                     <div class="container three-column-grid">
                         <div class="box">HOUSE CLEANING</div>
                         <div class="box">HOUSE CLEANING<br />
-                            We know that every home is different and has specific accommodations and routines.
-                            All of our maids are experienced and fully trained to clean your home the best way,
-                            taking into consideration your surroundings and lifestyle,  to make you feel as if you have cleaned yourself,
-                            but without the hassle! Of course, we know that letting someone into your home it’s a big deal.
-                            That kind of trust is reserved only for family and friends. Here at eMaids, we take your safety and peace of mind very seriously.
-                            That’s why all of our maids are background and reference checked, insured, and bonded also. You can book your cleaning service easily,
-                            just in a few clicks. Our online system is fast and practical, so you don’t have to worry about calling.
-                            Choose between a single time cleaning or a recurring cleaning for a more low price
+                            We are aware that every house is different and has certain needs and routines.
+                            All of Lily's staff are experienced and well trained to clean your house the best way,
+                            taking into consideration your surroundings and lifestyle, to make you feel as if you have cleaned yourself,
+                            but without a hassle! Of course, we know that letting someone into your home it’s a big deal.
+                            That kind of trust is reserved only for family and friends. Here at Lily's Cleaners, we take your safety and peace of mind very seriously.
+                            That’s why all of our maids are background and reference checked and bonded also.
+                            You can book your slot of service easily, just with a simple call. A customer service attendant will be available to hear your requirements for long term or just for a one off service.
+                           You can arrange for a single slot cleaning or a recurring service for a essential price.
                             (you can pick weekly, bi-weekly, or monthly packages).</div>
 
                         <div class="box">OFFICE CLEANING</div>
@@ -73,7 +73,7 @@ export default function Services() {
                             So, you can trust our maids with your property.
                             Lily's Cleaners operates in every location like a local company so that you may have a world-class cleaning service but with all the
                             flexibility and convenience that only a local company can provide.
-                            Book today your cleaning service through our fast and secure online booking system.</div>
+                            Book today your cleaning service through our fast and secure calling system.</div>
 
                         <div class="box">DEEP CLEANING</div>
                         <div class="box">DEEP CLEANING<br />
@@ -84,7 +84,7 @@ export default function Services() {
                             From dusting window frames to disinfecting bathroom surfaces, our maids will put special attention to detail.
                             Although this service can be really extense, we always stay under your budget and focus on your personal cleaning goals with an hourly rate.
                             Of course, we only sent to your home or office highly rated maids, background and reference checked,
-                            so you don’t have to worry about letting us in at your place. Also, you can easily schedule your service in our online booking system</div>
+                            so you don’t have to worry about letting us in at your place. Also, you can book easily by contacting us directly by a simple call.</div>
 
                         <div class="box">MOVE-IN/MOVE-OUT CLEANING</div>
                         <div class="box">MOVE-IN/MOVE-OUT CLEANING<br />
@@ -93,7 +93,7 @@ export default function Services() {
                             We know that every move is different. Every house has it’s details that need specific attention, and a history that indicates where to clean the most.
                             Often our clients ask for closet and cabinets cleaning; fridge, oven, and other appliances; and windows and doorframes dusting.
                             You tell us your personal goals, and we’ll make you an estimated budget. Choose your cleaning tasks in our extensive checklist, and we’ll follow just as you request.
-                            All of our maids are experienced and well-trained to accomplish this job. And also, you can book easily in our online booking system.</div>
+                            All of our staff are experienced and well-trained to accomplish this job. And also, you can book easily by contacting us directly by a simple call.</div>
 
                         <div class="box">POST CONSTRUCTION CLEANING</div>
                         <div class="box">POST CONSTRUCTION CLEANING <br />
