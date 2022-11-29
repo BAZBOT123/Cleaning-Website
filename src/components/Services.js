@@ -4,6 +4,9 @@ import { Link } from "react-router-dom"
 import Logo from '../assets/lilys.jpg'
 import { ReactComponent as InstgramSvg } from '../assets/instagram-brands.svg';
 
+import HouseCleaning from '../assets/residentialcleaning.jpeg'
+import OfficeCleaning from '../assets/residentialcleaning.jpeg'
+
 export default function Services() {
     return (
         <div className="App">
@@ -40,7 +43,7 @@ export default function Services() {
                 <div>
                     <h2>Commercial cleaning</h2>
                     <div class="container two-column-grid">
-                        <div class="box-image">HOUSE CLEANING</div>
+                        <div class="box-image"><img src={HouseCleaning} alt="House cleaning" height="100%" width="80%"></img></div>
                         <div class="box-text">HOUSE CLEANING<br />
                             We are aware that every house is different and has certain needs and routines.
                             All of Lily's staff are experienced and well trained to clean your house the best way,
@@ -52,7 +55,7 @@ export default function Services() {
                             You can arrange for a single slot cleaning or a recurring service for a essential price.
                             (you can pick weekly, bi-weekly, or monthly packages).</div>
 
-                        <div class="box-image">OFFICE CLEANING</div>
+                        <div class="box-image"><img src={HouseCleaning} alt="House cleaning" height="100%" width="80%"></img></div>
                         <div class="box-text">OFFICE CLEANING<br />
                             You can take care of the  business, and we’ll take care of the cleaning. When having an office,
                             you would need to sustain having it well-organised and clean for employees or clients.
@@ -64,7 +67,7 @@ export default function Services() {
                             You can arrange for a single slot cleaning or a recurring service for a essential price.
                             (you can pick weekly, bi-weekly, or monthly packages)</div>
 
-                        <div class="box-image">VACATION RENTAL CLEANING</div>
+                        <div class="box-image"><img src={HouseCleaning} alt="House cleaning" height="100%" width="80%"></img></div>
                         <div class="box-text">VACATION RENTAL CLEANING<br />
                             We want your rental property to be so fresh and clean for you to show it to your future guests proudly.
                             Whether you are a local or national company or just a regular homeowner, our team of maids can efficiently deliver the job.
@@ -75,7 +78,7 @@ export default function Services() {
                             flexibility and convenience that only a local company can provide.
                             Book today your cleaning service through our fast and secure calling system.</div>
 
-                        <div class="box-image">DEEP CLEANING</div>
+                        <div class="box-image"><img src={HouseCleaning} alt="House cleaning" height="100%" width="80%"></img></div>
                         <div class="box-text">DEEP CLEANING<br />
                             A deep cleaning service is recommended for houses and offices that haven’t been cleaned in a while,
                             for first visit cleanings, or before and after an event.
@@ -86,7 +89,7 @@ export default function Services() {
                             Of course, we only sent to your home or office highly rated maids, background and reference checked,
                             so you don’t have to worry about letting us in at your place. Also, you can book easily by contacting us directly by a simple call.</div>
 
-                        <div class="box-image">MOVE-IN/MOVE-OUT CLEANING</div>
+                        <div class="box-image"><img src={HouseCleaning} alt="House cleaning" height="100%" width="80%"></img></div>
                         <div class="box-text">MOVE-IN/MOVE-OUT CLEANING<br />
                             When you are moving to a new home, you probably are too busy for that last deep clean to your old house.
                             Or perhaps it’s your new home that needs cleaning? Whatever the case, our maids are ready to help you with this big step in your life.
@@ -95,7 +98,7 @@ export default function Services() {
                             You tell us your personal goals, and we’ll make you an estimated budget. Choose your cleaning tasks in our extensive checklist, and we’ll follow just as you request.
                             All of our staff are experienced and well-trained to accomplish this job. And also, you can book easily by contacting us directly by a simple call.</div>
 
-                        <div class="box-image">POST CONSTRUCTION CLEANING</div>
+                        <div class="box-image"><img src={HouseCleaning} alt="House cleaning" height="100%" width="80%"></img></div>
                         <div class="box-text">POST CONSTRUCTION CLEANING <br />
                             This service usually is for commercial clients who are in the real state business or may have a new renovated home, build, or apartment,
                             but we provide post-construction cleaning to whichever homeowner that just have finished its remodeling or construction.
@@ -105,7 +108,7 @@ export default function Services() {
                             to guarantee the elimination of all debris and dust. Ask for our complete cleaning checklist with all the possible spots and areas to clean.
                             Book easily by contacting us directly by a simple call.</div>
 
-                        <div class="box-image">APARTMENT CLEANING</div>
+                        <div class="box-image"><img src={HouseCleaning} alt="House cleaning" height="100%" width="80%"></img></div>
                         <div class="box-text">APARTMENT CLEANING <br />
                             Either you want a frequent service with weekly or monthly scheduled sessions, or you just want a one-time cleaning with affordable hourly rates,
                             you better be sure that Lily's Cleaners have the right service for you. We strive to always fit under our customer’s budget and adjust to their time frames.
