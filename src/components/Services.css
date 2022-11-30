@@ -24,4 +24,15 @@
 
 .container {
   margin-bottom: .8em;
+  margin-top: .8em;
+}
+
+.box-title {
+  margin: 0;
+  padding-top: .15em;
+}
+
+.box-paragraph {
+  margin: 0;
+  padding: 0;
 }
