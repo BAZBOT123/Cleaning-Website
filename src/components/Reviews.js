@@ -72,9 +72,6 @@ export default function Reviews() {
             <main className="App-header">
 
                 <div className="reviews-main">
-
-                    <p>hello!!</p>
-
                     <div className="widget">
                         <img src="https://media.baamboozle.com/uploads/images/59285/1607706108_132637" alt="banner" width="auto"></img>
                         <div>
@@ -134,6 +131,14 @@ export default function Reviews() {
                             </div>
                             <div className='review-text-box'>
                                 <span id="review-text">"Amazing cooking & cleaning"</span>
+                            </div>
+                        </div>
+                        <div className='review-card'>
+                            <div className="review-name-box">
+                                <h1 id="review-name">Mr Yue:</h1>
+                            </div>
+                            <div className='review-text-box'>
+                                <span id="review-text">"I am so happy with the work you have done!"</span>
                             </div>
                         </div>
                         <div className='review-card'>
