@@ -1,30 +1,17 @@
 import './home.css';
+import SlideShow from './slide.js'
 import { Link } from "react-router-dom"
+
+// import React, { useState } from 'react';
 import { ReactComponent as InstgramSvg } from '../assets/instagram-brands.svg';
 import Logo from '../assets/lilys.jpg'
-// eslint-disable-next-line no-unused-vars
+
 // import { Slide } from 'react-slideshow-image';
-// import 'react-slideshow-image/dist/styles.css';
+import 'react-slideshow-image/dist/styles.css';
 import AnimatedPage from './AnimatedPage'
 
-import Slider from './Slider/Slider.js'
+// import Slider from './Slider/Slider.js'
 
-  //     const slideImages = [
-  //   {
-  //     url: '../assets/img1.jpeg',
-  //     caption: 'Slide 1'
-  //   },
-  //   {
-  //     url: '../assets/img2.jpeg',
-  //     caption: 'Slide 2'
-  //   },
-  //   {
-  //     url: '../assets/img3.jpeg',
-  //     caption: 'Slide 3'
-  //   },
-  // ];
-
- 
 
 
 
@@ -33,16 +20,9 @@ import Slider from './Slider/Slider.js'
 export default function Home() {
 
 
-    // const images = [
-    //   '../assets/img1..jpg',
-    //   '../assets/img2..jpg',
-    //   '../assets/img3..jpg',
-    // ]
 
 
-  
 
-  
   return (
     <AnimatedPage>
       <div className="App">
@@ -68,40 +48,15 @@ export default function Home() {
         </nav>
 
         <main className="App-header">
-{/* 
-          <div className="slide-container">
-            <Slide>
-              {slideImages.map((slideImage, index) => (
-                <div className="each-slide" key={index}>
-                  <div style={{ 'backgroundImage': `url(${slideImage.url})` }}>
-                    <span>{slideImage.caption}</span>
-                  </div>
-                </div>
-              ))}
+
+
+
+         <div className="slide-container">
+          <SlideShow>
+
            
-
-            <div className="each-slide-effect">
-              <div style={{ 'backgroundImage': `url(${images[0]})`}}>
-                <span>Slide 1</span>
-              </div>
-            </div>
-            <div className="each-slide-effect">
-              <div style={{ 'backgroundImage': `url(${images[1]})`}}>
-                <span>Slide 2</span>
-              </div>
-            </div>
-            <div className="each-slide-effect">
-              <div style={{ 'backgroundImage': `url(${images[2]})`}}>
-                <span>Slide 3</span>
-              </div>
-            </div>
-            </Slide>
-          </div> */}
-
-
-          <>
-      <Slider />
-    </>
+          </SlideShow>
+        </div>
 
 
         </main>
